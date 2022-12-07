@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>music Player</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="menu_side">
+            <div class="profile"><img src="profile12.jpg" alt=""></div>
+            <span class="username">Chetan Patil</span>
+            <div class="menu">
+                <h4><i class="icons fa-solid fa-house"></i>Home</h4>
+                <h4><i class="icons fa-solid fa-record-vinyl"></i>Album</h4>
+                <h4><i class="icons fa-solid fa-user"></i>Artist</h4>
+                <h4><i class="icons fa-solid fa-video"></i>Videos</h4>
+            </div>
+        </div>
+        <div class="song_side">
+            <div class="search">
+                <span><i class="searchicon fa-solid fa-magnifying-glass"></i></span><input type="text"
+                    placeholder="Search for song  .  .  .">
+            </div>
+            <div class="head">
+            <p id="popular">Most popular</p><i class="fa-solid fa-angle-left" id="popularLeft"></i><i class="fa-solid fa-angle-right" id="popularRight"></i></div>
+            <div class="mostPopular">
+                <div class="cover">
+                    <img src="covers/1.jpg" id ="1" alt="1"><h5>legion</h5>
+                    
+                </div>
+                
+                <div class="cover">
+                    <img src="covers/2.jpg" id ="2" alt="1"><h5>legion</h5>
+                    
+                </div>
+                <div class="cover">
+                    <img src="covers/3.jpg" id ="3" alt="1"><h5>legion</h5>
+                    
+                </div>
+                <div class="cover">
+                    <img src="covers/4.jpg" id ="4" alt="1"><h5>legion</h5>
+                    
+                </div>
+                <div class="cover">
+                    <img src="covers/5.jpg" id ="5" alt="1"><h5>legion</h5>
+                    
+                </div>
+                <div class="cover">
+                    <img src="covers/6.jpg" id ="6" alt="1"><h5>legion</h5>
+                    
+                </div>
+                <div class="cover">
+                    <img src="covers/7.jpg" id ="7" alt="1"><h5>legion</h5>
+                    
+                </div>
+                <div class="cover">
+                    <img src="covers/8.jpg" id ="8" alt="1"><h5>legion</h5>
+                    
+                </div>
+                <div class="cover">
+                    <img src="covers/9.jpg" id ="9" alt="1"><h5>legion</h5>
+                    
+                </div>
+                <div class="cover">
+                    <img src="covers/10.jpg" id ="10" alt="1"><h5>legion</h5>
+                    
+                </div>
+            </div>
+            <div class="heading">
+                <span>songs</span>
+               <p>now playing</p>
+            </div>
+            <div class="below">
+            <div class="songList">
+                <li class="s1" id="11">
+                    <span>01</span> <img src="covers/1.jpg" alt="1">
+                    <h5>legion</h5>
+                    
+                    <p class="time">3:12</p><i class="fa-solid fa-heart"></i>
+                </li>
+                <li class="s1" id="12" >
+                    <span>02</span> <img src="covers/1.jpg" alt="1">
+                    <h5>legion</h5>
+                    
+                    <p class="time">3:12</p><i class="fa-solid fa-heart"></i>
+                </li>
+                <li class="s1" id="13">
+                    <span>03</span> <img src="covers/1.jpg" alt="1">
+                    <h5>legion</h5>
+                    
+                    <p class="time">3:12</p><i class="fa-solid fa-heart"></i>
+                </li>
+                <li class="s1" id="14">
+                    <span>04</span> <img src="covers/1.jpg" alt="1">
+                    <h5>legion</h5>
+                    
+                    <p class="time">3:12</p><i class="fa-solid fa-heart"></i>
+                </li>
+                <li class="s1" id="15">
+                    <span>05</span> <img src="covers/1.jpg" alt="1">
+                    <h5>legion</h5>
+                    
+                    <p class="time">3:12</p><i class="fa-solid fa-heart"></i>
+                </li>
+                
+            </div>
+            <div class="currPlay">
+                <div class="box">
+                    <img src="covers/1.jpg" alt="1" id="masterPoster">
+                    <p id="songTitle">7 Rings</p>
+                </div>
+                <div class="bar">
+                <input type="range" id="seek" min="0" value="0" max="100">
+                <div class="bar2" id="bar2"></div>
+                <div class="dot"></div>
+                </div>
+                <div class="curricons">
+                    <i class="fa-solid fa-backward"></i>
+                    <i class="fa-solid fa-play" id="masterPlay"></i>
+                    <i class="fa-solid fa-forward"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    </div>
+    <script src="https://kit.fontawesome.com/27be31ba42.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
